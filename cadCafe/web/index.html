@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cadCafe</title>
+    <style>
+@import url('https://fonts.googleapis.com/css2? family= Luxurious+Roman &família= Neonderdegelo & display=swap');
+@import url('https://fonts.googleapis.com/css2? família= Luxuoso+Romano &família= Neonderdegelo & display=swap');
+
+
+
+body {
+    background-image: linear-gradient(to top,#184fda, #184690,#4442b2,#CBCFD1);
+    height: 1000px;
+    width: 600px;
+    
+    }
+main{
+    background-color: #1705e3;
+    border-radius: 15px;
+    width: 600px;
+    padding: 10px;
+    margin:250px;
+    box-shadow: 10px 10px 10px #FFD639;
+    text-align: center;
+}
+
+h3{
+    
+    background-color: #f3f4f5;
+    font-family: 'Luxurious Roman', cursiva;
+    font-family: 'Neonderthaw', cursiva;
+    text-align: center;
+   
+}
+
+tr{
+background-color: #0ccadf;
+font-family: 'Luxurious Roman', serif;
+font-family: 'Neonderthaw', cursiva;
+}
+
+
+td {
+    font-family: 'Luxurious Roman', cursiva;
+    text-align: justify;
+    
+}
+    </style>
+</head>
+    <body>
+         <Main>
+            <form action="MatriculaServlet" method="get">
+            <h3> Cadastro Café da manhã  </h3>
+                 <table>  
+        <tr>
+            <td>CadastroNome</td>
+            <td><input type="text" name="nome"></td>    
+        </tr>
+        <tr>
+            <td>CadastroCPF</td>
+            <td><input type="text" name="cpf"></td>    
+        </tr>
+        <tr>
+            <td>Lenche1</td>
+            <td><input type="text" name="Lanche1"></td>    
+        </tr>
+        <tr>
+            <td>Lanche2</td>
+            <td><input type="text" name="lanche2"></td>    
+        </tr>
+        <tr>
+            <td>Bebida</td>
+            <td><input type="text" name="Bebida"></td>    
+        </tr>
+        
+        <td>
+            <input type="submit" value="Enviar" />
+        </td>
+                  </table>
+              </form> 
+         </Main>
+    </body>
+</html>
